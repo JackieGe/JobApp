@@ -27,34 +27,9 @@ Install nodejs and check its version after its installation:
     
     `npm start`
     
-    Then can access `http://localhost:8081`, recommend using Chrome, firefox, IE 11 or above
-     
-### e2e testing
-1. Install protractor 
-   `npm install -g protractor`
-   
-   For Mac and Linux, we may need super right:
-   `sudo npm install -g protractor`
-   
-2. Update webdriver-manager
-
-   `webdriver-manager udpate`
-   
-   For Mac and Linux, we may need super right:
-   
-   `sudo webdriver-manager update`
-   
-3. Start Selenuim Server
-
-   `webdriver manager start`
-   
-    For Mac and Linux, we may need super right:
-      
-    `sudo webdriver-manager start`
-    
-4. Open terminal and cd to the project root folder, then do:
+    Then can access `http://localhost:8080`, recommend using Chrome, firefox, IE 11 or above
  
-   `npm run test:e2e` or `protractor config.js`
+   
    
 ### Docker support
 If you want to use docker, you follow:
@@ -65,4 +40,4 @@ and then
 
 `npm run startcontainer`
 
-Then you can access `http://localhost:8081`
+Then you can access `http://localhost:8080`
