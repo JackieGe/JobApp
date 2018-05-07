@@ -1,0 +1,23 @@
+#jobDetail {
+    text-align: center;
+}
+
+#jobDetail ul{
+    display: flex;
+}
+#jobDetail ul >li{
+    list-style-type: none;
+}
+
+.job-property {
+    text-align: right;
+    margin-right: 5px;
+    width: 80px;
+}
+
+.job-property-value{
+    text-align: left;
+    font-family: Arial;
+    background-color: aliceblue;
+    width: 140px;
+}

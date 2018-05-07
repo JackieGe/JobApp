@@ -1,0 +1,15 @@
+<table id="jobList">
+    <colgroup>
+        <col width="200">
+        <col width="80">
+    </colgroup>
+    <tr>
+        <th>Name</th>
+        <th>Status</th>
+    </tr>
+    <tr ng-repeat="job in $ctrl.jobs" ng-click="$ctrl.clickJob(job)" ng-class="$ctrl.getJobRowStyle(job)">
+        <td>{{job.name}}</td>
+        <td>{{job.status}}</td>
+    </tr>
+</table>
+

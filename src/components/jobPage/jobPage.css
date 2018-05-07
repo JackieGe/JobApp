@@ -1,0 +1,10 @@
+#jobPage {
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+}
+
+#jobPage .left {
+    display: flex;
+    padding-top: 20px;
+}

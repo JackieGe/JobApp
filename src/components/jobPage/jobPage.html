@@ -1,0 +1,8 @@
+<div id="jobPage">
+    <div class="left">
+        <job-list on-job-selected="$ctrl.onJobSelected">
+        </job-list>
+    </div>
+    <job-detail ng-if="$ctrl.selectedJob" job="$ctrl.selectedJob" >
+    </job-detail>
+</div>

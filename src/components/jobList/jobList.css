@@ -1,0 +1,27 @@
+#jobList {
+    border-collapse: collapse;
+}
+
+#jobList th,
+#jobList td {
+    text-align: left;
+}
+
+#jobList tr:first-child, #jobList tr:first-child:hover{
+    background-color:darkgray;
+}
+
+#jobList tr:nth-child(2n) {
+    background-color: azure;
+}
+
+#jobList tr:nth-child(2n+1):not(1) {
+    background-color: beige;
+}
+#jobList tr:hover{
+    background-color: aquamarine;
+}
+
+.selected-row {
+    background-color: aquamarine;
+}
